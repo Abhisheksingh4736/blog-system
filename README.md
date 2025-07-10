@@ -59,3 +59,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Laravel Blog System
+
+A simple blog post manager with CRUD operations, image upload, validation, and pagination using Laravel 10.
+
+## Features
+
+- Create, edit, delete, and view posts
+- Upload image for each post
+- Bootstrap 5 styling
+- Server-side validation
+- Pagination
+
+## Requirements
+
+- PHP 8.x
+- Composer
+- Laravel 10
+- MySQL (or SQLite)
+
+## Setup Instructions
+
+1. Clone the repo or extract the zip.
+2. Run:
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
