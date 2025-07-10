@@ -9,7 +9,12 @@
 </div>
 @endif
 
-<a href="{{ route('posts.create') }}" class="btn btn-success mb-3">Create Post</a>
+<div class="row mb-3">
+    <div class="col text-end">
+        <a href="{{ route('posts.create') }}" class="btn btn-success">Create Post</a>
+    </div>
+</div>
+
 
 @foreach ($posts as $post)
 <div class="card mb-3">
